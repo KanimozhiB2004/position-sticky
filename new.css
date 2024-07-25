@@ -1,0 +1,41 @@
+.whole{
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    border: 6px solid black;
+    
+}
+.one{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.two{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.three{
+    position: absolute;
+    bottom: 0;
+    top: 350px;
+    left: 0;
+}
+.four{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 350px;
+}
+.five{
+    position: absolute;
+    top: 150px;
+    bottom: 150px;
+    left: 400px;
+    right: 350px;
+}
+#use{
+    position: sticky;
+    top: 0;
+    left: 50px;
+}
